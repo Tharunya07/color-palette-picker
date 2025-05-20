@@ -30,11 +30,28 @@ body {
     justify-content: center;
     padding: 10px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
     transition: transform 0.2s;
 }
 
 .color-box:hover {
     transform: scale(1.05);
+}
+
+.color-box .hex {
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.color-box .name {
+    font-size: 12px;
+    opacity: 0.9;
+    margin-bottom: auto;
 }
 
 button {
